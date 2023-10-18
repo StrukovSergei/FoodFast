@@ -7,6 +7,10 @@ import { CreateOrderComponent } from './pages/create-order/create-order.componen
 
 const routes: Routes = [
   {
+    path: '',
+    component: CategoryComponent
+  },
+  {
     path: 'Login',
     component: LoginComponent
   },
